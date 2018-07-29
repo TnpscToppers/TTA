@@ -1,2 +1,0 @@
-# Tnpsctoppers
-Tnpsccode
