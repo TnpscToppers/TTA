@@ -9,7 +9,7 @@ body
  font-size:20px;
  font-family:Calibri, Helvetica, sans-serif;
  color:#0d1934;
- text-align:justify;
+ text-align:left;
  margin:10px 20px 0 20px;
  width:90%;
  }
@@ -19,7 +19,7 @@ body
  color:#0c3327;
  }
 .footer {
-   position: fixed;
+	position:fixed;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -43,8 +43,8 @@ body
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
- width:90%; 
- text-align:left;
+    width:90%; 
+    text-align:left;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
@@ -72,7 +72,310 @@ body
  border: none; 
  font-size: 18px;
  padding: 10px 30px;
+ cursor: pointer;
 }
+.img3{
+	align:center;
+	max-width: 90%;
+	height: auto;
+	}
+.nav{
+    border:1px solid #008CBA;
+    border-width:2px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	position: fixed;
+    bottom: 0;
+	padding:5px;
+    width: 100%;
+	height:40px;
+	background-color:#333;	
+}
+/*bottom code*/
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+.horizontal-scroll-wrapper{
+  position:absolute;
+  display:block;
+  width:10px;
+  height:1060px;
+	background-color:#333;	
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin:right top;
+  margin-bottom:0px;
+  margin-left:200px;
+      border:1px solid #008CBA;
+    border-width:2px 0;
+	list-style:none;
+
+	
+}
+#button41{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);	
+	transform-origin:-15px;
+
+  }
+#button42{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+		transform-origin:-15px;
+
+}
+#button43{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+		transform-origin:-15px;
+}
+#button44{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button45{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button46{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button47{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button48{
+width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button49{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button50{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button51{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);	
+	transform-origin:-15px;
+
+  }
+#button52{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+		transform-origin:-15px;
+
+}
+#button53{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+		transform-origin:-15px;
+}
+#button54{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button55{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button56{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button57{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button58{
+width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button59{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button60{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button61{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);	
+	transform-origin:-15px;
+
+  }
+#button62{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+		transform-origin:-15px;
+
+}
+#button63{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+		transform-origin:-15px;
+}
+#button64{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+#button65{
+	width:40px;
+	height:40px;
+	color:white;	
+	border-radius: 50%;
+	border:1px solid white;
+	background-color: Transparent;
+	transform:rotate(90deg);
+			transform-origin:-15px;
+}
+.TTAlogoimg
+	{
+		align:center;
+		max-width: 90%;
+		height: auto;
+	}
 .resultanscss
 {
 	margin-top:-100px;
@@ -116,7 +419,7 @@ body
   font-size: 17px;
 }
 .active {
-  background-color: #5c4872;
+  background-color: #008CBA;
   color: white;
 }
 .topnav .icon {
@@ -141,4 +444,49 @@ body
     display: block;
     text-align: left;
   }
+}
+
+
+@media screen and (max-width: 375px){
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+.horizontal-scroll-wrapper{
+  position:absolute;
+
+  display:block;
+  width:10px;
+  max-height:385px;
+	background-color:#333;	
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin:right top;
+  margin-bottom:0px;
+    margin-left:0px;
+      border:1px solid #008CBA;
+    border-width:2px 0;
+	list-style:none;
+	}
+	
+}
+@media screen and (max-width: 320px){
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
+.horizontal-scroll-wrapper{
+  position:absolute;
+
+  display:block;
+  width:10px;
+  max-height:345px;
+	background-color:#333;	
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin:right top;
+  margin-bottom:0px;
+    margin-left:0px;
+      border:1px solid #008CBA;
+    border-width:2px 0;
+	list-style:none;
+	}
 }
