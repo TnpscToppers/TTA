@@ -1,83 +1,466 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="description" content="TNPSC TOPPERS ACADEMY">
-		<meta name="keywords" content="Tnpsc toppers academy,tnpsc toppers,TTA">
-		<meta name="author" content="Alien">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="theme-color" content="#4285f4" />
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
-		<title> Tnpsc Toppers Academy </title>
-		<link rel="shortcut icon" href="logo.png">
-		<link rel="stylesheet" href="home1.css">
-		<link rel="stylesheet" href="home2.css">
-		<link rel="stylesheet" href="alien1.css">
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120237294-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-120237294-1');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="icon" href="">
+<title>TNPSC Toppers Academy</title>
+<link rel="stylesheet" type="text/css" href="code.css">
+<link rel="icon" href="logo.png">
+<script src="code.js"></script>
+<style>
+body{font-size:14px;}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
 
-	</head>
-	<body>
-	
-		<center><div class="bgindex">
-			<p class="headtextindex"> TNPSC TOPPERS ACADEMY
-			<p class="p1index" style="text-align:center">- a simplified learning methodology</p>
-			</p>
-		</div></center>	
-	<p class="date1">Date: </p>
-	<p id="DATE1" class="date2"></p>
-	<p class="day1">Day:</p>
-	<p id="day2" class="day2"></p>
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+th{background-color:#C93030;color:white;}
+tr:nth-child(even){background-color: #D8D8D8}
 
-		<p class="login2"><img src="user.png"  width="30" height="30">&nbspLogin</p>
-		<!--<center><img class="logotta" src="logonew.png" alt="" style="width:125px;"></center>-->
-		<hr>
-		<div class="w3-row">
-		  <div class="w3-col s3 w3-green w3-center">
-			<p>s4</p>
-		  </div>
-		  <div class="w3-col s3 w3-dark-grey w3-center">
-			<p>s4</p>
-		  </div>
-		  <div class="w3-col s3 w3-red w3-center">
-			<p>s4</p>
-		  </div>
-		  <div class="w3-col s3 w3-blue w3-center">
-			<p>s4</p>
-		  </div>
-		</div>
+@media screen and (max-width: 320px){
+body{font-size:9px;}
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#Title" class="active"><b>TNPSC TOPPERS ACADEMY</b></a>
+  <a href="#tagline">a simplified learning methodology</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<center>
+<div id="question0" class="tabcontent">
+ <input class="textbox1" type="password" name="login" value="" id="login" placeholder="Enter the Code to Start the Test"  />
+ <br><br>
+ <input id="button3" type="submit" name="commit" value="START" onclick="codevalidate1();" />
+</div>
+</center>
+<br><br>
+
+<div id="question1" style="overflow-x:auto;display:none;">
+  <table>
+	 <col width="70">
+  	 <col width="40">
+	 <col width="100">
+ 	 <col width="150">
+	 <col width="30">
+
+    <tr>
+      <th>DAYS</th>
+      <th>DATE</th>
+      <th>SYLLABUS TOPICS COVERED</th>
+      <th>WHERE TO STUDY</th>
+      <th>Test</th>
+
+    </tr>
+    <tr>
+      <td>DAY 1</td>
+      <td>20th Aug 2018</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>CURRENT AFFAIRS</td>
+      <td><a href="http://www.tnpsctoppers.com/EVS/EVSQues/EVSQ1.html">Ques 1</a></td>
+
+    </tr>
+    <tr>
+      <td>DAY 2</td>
+      <td>21st Aug 2018</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 2</td>
+
+    </tr>
+    <tr>
+      <td>DAY 3</td>
+      <td>22nd Aug 2018</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 3</td>
+
+    </tr>
+
+    <tr>
+      <td>DAY 4</td>
+      <td>23rd Aug 2018</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 4</td>
+
+    </tr>
+    <tr>
+      <td>DAY 5</td>
+      <td>24th Aug 2018</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 5</td>
+
+    </tr>
+    <tr>
+      <td>DAY 6</td>
+      <td>25th Aug 2018</td>
+      <td>INDIAN POLITY</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 6</td>
+
+    </tr>
+
+    <tr>
+      <td>DAY 7</td>
+      <td>26th Aug 2018</td>
+      <td>INDIAN POLITY</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 7</td>
+
+    </tr>
+    <tr>
+      <td>DAY 8</td>
+      <td>27th Aug 2018</td>
+      <td>INDIAN POLITY</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 8</td>
+
+    </tr>
+    <tr>
+      <td>DAY 9</td>
+      <td>28th Aug 2018</td>
+      <td>INDIAN POLITY</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 9</td>
+
+    </tr>
+
+    <tr>
+      <td>DAY 10</td>
+      <td>29th Aug 2018</td>
+      <td>INDIAN POLITY</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 10</td>
+
+    </tr>
+    <tr>
+      <td>DAY 11</td>
+      <td>30th Aug 2018</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>Ques 11</td>
+
+    </tr>
+    <tr>
+      <td>DAY 12</td>
+      <td>31st Aug 2018</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>Ques 12</td>
+
+    </tr>
+
+    <tr>
+      <td>DAY 13</td>
+      <td>1st Sep 2018</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>Ques 13</td>
+
+    </tr>
+    <tr>
+      <td>DAY 14</td>
+      <td>2nd Sep 2018</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>Ques 14</td>
+
+    </tr>
+    <tr>
+      <td>DAY 15</td>
+      <td>3rd Sep 2018</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>Ques 15</td>
+
+    </tr>
+
+    <tr>
+      <td>DAY 16</td>
+      <td>4th Sep 2018</td>
+      <td>MATHS</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 16</td>
+
+    </tr>
+    <tr>
+      <td>DAY 17</td>
+      <td>5th Sep 2018</td>
+      <td>MATHS</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 17</td>
+
+    </tr>
+    <tr>
+      <td>DAY 18</td>
+      <td>6th Sep 2018</td>
+      <td>MATHS</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 18</td>
+
+    </tr>
+
+    <tr>
+      <td>DAY 19</td>
+      <td>7th Sep 2018</td>
+      <td>MATHS</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 19</td>
+
+    </tr>
+    <tr>
+      <td>DAY 20</td>
+      <td>8th Sep 2018</td>
+      <td>MATHS</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 20</td>
+
+    </tr>
+    <tr>
+      <td>DAY 21</td>
+      <td>9th Sep 2018</td>
+      <td>HISTORY</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 21</td>
+
+    </tr>
+
+    <tr>
+      <td>DAY 22</td>
+      <td>10th Sep 2018</td>
+      <td>HISTORY</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 22</td>
+
+    </tr>
+    <tr>
+      <td>DAY 23</td>
+      <td>11th Sep 2018</td>
+      <td>HISTORY</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 23</td>
+
+    </tr>
+    <tr>
+      <td>DAY 24</td>
+      <td>12th Sep 2018</td>
+      <td>HISTORY</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 24</td>
+
+    </tr>
+
+    <tr>
+      <td>DAY 25</td>
+      <td>13th Sep 2018</td>
+      <td>HISTORY</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 25</td>
+
+    </tr>
+    <tr>
+      <td>DAY 26</td>
+      <td>14th Sep 2018</td>
+      <td>HISTORY</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 26</td>
+
+    </tr>
+    <tr>
+      <td>DAY 27</td>
+      <td>15th Sep 2018</td>
+      <td>HISTORY</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 27</td>
+
+    </tr>
+
+    <tr>
+      <td>DAY 28</td>
+      <td>16th Sep 2018</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 28</td>
+
+    </tr>
+    <tr>
+      <td>DAY 29</td>
+      <td>17th Sep 2018</td>
+      <td>INDIAN NATIONAL MOVEMENT</td>
+      <td>MATHS + CURRENT AFFAIRS</td>
+      <td>Ques 29</td>
+
+    </tr>
+    <tr>
+      <td>DAY 30</td>
+      <td>18th Sep 2018</td>
+      <td>MATHS</td>
+      <td>SCIENCE + CURRENT AFFAIRS</td>
+      <td>Ques 30</td>
+
+    </tr>
+
+    <tr>
+      <td>DAY 31</td>
+      <td>19th Sep 2018</td>
+      <td>MATHS</td>
+      <td>SCIENCE + CURRENT AFFAIRS</td>
+      <td>Ques 31</td>
+
+    </tr>
+    <tr>
+      <td>DAY 32</td>
+      <td>20th Sep 2018</td>
+      <td>MATHS</td>
+      <td>SCIENCE + CURRENT AFFAIRS</td>
+      <td>Ques 32</td>
+
+    </tr>
+    <tr>
+      <td>DAY 33</td>
+      <td>21st Sep 2018</td>
+      <td>MATHS</td>
+      <td>SCIENCE + CURRENT AFFAIRS</td>
+      <td>Ques 33</td>
+
+    </tr>
+  <tr>
+      <td>DAY 34</td>
+      <td>22nd Sep 2018</td>
+      <td>MATHS</td>
+      <td>SCIENCE + CURRENT AFFAIRS</td>
+      <td>Ques 34</td>
+
+    </tr>
+    <tr>
+      <td>DAY 35</td>
+      <td>23rd Sep 2018</td>
+      <td>MATHS</td>
+      <td>SCIENCE + CURRENT AFFAIRS</td>
+      <td>Ques 35</td>
+
+    </tr>
+  <tr>
+      <td>DAY 36</td>
+      <td>24th Sep 2018</td>
+      <td>INDIAN POLITY</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 36</td>
+
+    </tr>
+    <tr>
+      <td>DAY 37</td>
+      <td>25th Sep 2018</td>
+      <td>INDIAN POLITY</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 37</td>
+
+    </tr>
+  <tr>
+      <td>DAY 38</td>
+      <td>26th Sep 2018</td>
+      <td>INDIAN POLITY</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 38</td>
+
+    </tr>
+    <tr>
+      <td>DAY 39</td>
+      <td>27th Sep 2018</td>
+      <td>INDIAN POLITY</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 39</td>
+
+    </tr>
+  <tr>
+      <td>DAY 40</td>
+      <td>28th Sep 2018</td>
+      <td>INDIAN POLITY</td>
+      <td>CURRENT AFFAIRS</td>
+      <td>Ques 40</td>
+
+    </tr>
+  <tr>
+      <td><mark>TOTAL</mark></td>
+      <td><mark>40 DAYS</mark></td>
+      <td><mark>FULL SYLLABUS</mark></td>
+      <td></td>
+      <td><mark>1000 QUESTIONS</mark></td>
+
+    </tr>
+
+  </table>
+</div>
 
 
-	<script>
-		window.onload = function(){
-				var today = new Date();
-				var dd = today.getDate();
 
-				var mm = today.getMonth()+1; 
-				var yyyy = today.getFullYear();
-				if(dd<10) 
-				{
-					dd='0'+dd;
-				} 
 
-				if(mm<10) 
-				{
-					mm='0'+mm;
-				} 
-				today = dd+'/'+mm+'/'+yyyy;
-				console.log(today);
-				document.getElementById('DATE1').innerHTML=today;
-		    var d11 = new Date();
-				var weekday = new Array(7);
-				weekday[0] = "Sunday";
-				weekday[1] = "Monday";
-				weekday[2] = "Tuesday";
-				weekday[3] = "Wednesday";
-				weekday[4] = "Thursday";
-				weekday[5] = "Friday";
-				weekday[6] = "Saturday";
+<script>
+document.getElementById("question0").style.display = "block";
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+   
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
 
-				var n1 = weekday[d11.getDay()];
-				document.getElementById("day2").innerHTML = n1;
-			}
-		document.addEventListener('contextmenu', event => event.preventDefault());
+
+<script>
+//code 
+function codevalidate1() 
+  {
+            if (document.getElementById("login").value == "ttaevs40") 
+   {
+    openCity(event, 'question1');
+            } else if (document.getElementById("login").value == "01052209")
+   {
+                openCity(event, 'question1');
+            } else
+   {
+    alert("Please Enter the Valid Code");
+   }
+    
+        }
+  
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 shortcut = {
     all_shortcuts: {},
@@ -98,6 +481,7 @@ shortcut = {
             r.target ? i = r.target : r.srcElement && (i = r.srcElement), 3 == i.nodeType && (i = i.parentNode);
             if ("INPUT" == i.tagName || "TEXTAREA" == i.tagName) return
           }
+		  
           r.keyCode ? code = r.keyCode : r.which && (code = r.which), i = String.fromCharCode(code).toLowerCase(), 188 == code && (i = ","), 190 == code && (i = ".");
           var s = e.split("+"),
             o = 0,
@@ -122,7 +506,7 @@ shortcut = {
               "/": "?",
               "\\": "|"
             }, f = {
-              esc: 27,
+    esc: 27,
               escape: 27,
               tab: 9,
               space: 32,
@@ -196,10 +580,10 @@ shortcut = {
       }
     },
      shortcut.add("Ctrl+U",function(){
-     alert('Sorry\nNo you cant see the code. Be creative!')
+     alert('Sorry\nNo CTRL+U is allowed. Be creative!')
     }),
-	shortcut.add("Ctrl+s",function(){
-     alert('Sorry\nNo Save Button is not allowed')
+    shortcut.add("Ctrl+s",function(){
+     alert('Sorry\nNo Save option is allowed')
     }),
      shortcut.add("Meta+Alt+U",function(){
      alert('Sorry\nNo Command+Option+U is allowed. Be creative!')
@@ -209,7 +593,7 @@ shortcut = {
     }),
     shortcut.add("Meta+C",function(){
      alert('Sorry\nNever duplicate this article...')
-    });	
-		</script>
+    });
+</script>
 </body>
 </html>
