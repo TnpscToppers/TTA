@@ -628,7 +628,7 @@ var myFuncCalls = 0;
       }
       function resultsans()
       {
-      document.getElementById("resultans").innerHTML=myFuncCalls + "/10";
+      document.getElementById("resultans").innerHTML=myFuncCalls + "/25";
       }
       
 	  
