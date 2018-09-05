@@ -55,15 +55,15 @@ function myFunction() {
 }
 </script>
 <center>
-<div id="question0" class="tabcontent">
+<!--<div id="question0" class="tabcontent">
  <input class="textbox1" type="password" name="login" value="" id="login" placeholder="Enter the Code to Start the Test"  />
  <br><br>
  <input id="button3" type="submit" name="commit" value="START" onclick="codevalidate1();" />
 </div>
 </center>
 <br><br>
-
-<div id="question1" style="overflow-x:auto;display:none;">
+-->
+<div id="question0" style="overflow-x:auto;display:none;">
   <table>
 	 <col width="70">
   	 <col width="40">
@@ -492,10 +492,10 @@ function codevalidate1()
   {
             if (document.getElementById("login").value == "8080") 
    {
-    openCity(event, 'question1');
+    openCity(event, 'question0');
             } else if (document.getElementById("login").value == "01052209")
    {
-                openCity(event, 'question1');
+                openCity(event, 'question0');
             } else
    {
     alert("Please Enter the Valid Code");
