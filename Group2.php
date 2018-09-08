@@ -45,8 +45,8 @@
 		<div class="w3-container w3-half" >
 		<div class="card">
 		  <img src="2.png" alt="TNPSC Toppers Academy" style="width:100%">
-		  <a class="a2" href="Group2Eng.html"><h3 class="a2"id="button55">Syllabus</h3></a>
-		  <a class="a2" href="Group2Eng.html"><h3 class="a2"id="button55">Test Series</h3></a>
+		  <a class="a2" href="http://www.tnpsctoppers.com/Group2/Group2Eng.html"><h3 class="a2"id="button55">Syllabus</h3></a>
+		  <a class="a2" href="http://www.tnpsctoppers.com/Group2/Group2Eng.html"><h3 class="a2"id="button55">Test Series</h3></a>
 		  <!--<h3 class="a2"id="button55">Videos</h3>-->
 		 <p><button class="notification1">MORE</button></p>
 		</div>
@@ -55,8 +55,8 @@
 		 <div class="w3-container w3-half">
 		<div class="card">
 		  <img src="3.jpg" alt="TNPSC Toppers Academy" style="width:100%">
-		  <a class="a2" href="Group2தமிழ்.html"><h3 class="a2"id="button55">Syllabus</h3></a>
-		  <a class="a2" href="Group2தமிழ்.html"><h3 class="a2"id="button55">Test Series</h3></a>
+		  <a class="a2" href="http://www.tnpsctoppers.com/Group2/Group2தமிழ்.html"><h3 class="a2"id="button55">Syllabus</h3></a>
+		  <a class="a2" href="http://www.tnpsctoppers.com/Group2/Group2தமிழ்.html"><h3 class="a2"id="button55">Test Series</h3></a>
 		  <!--<h3 class="a2"id="button55">Videos</h3>-->
 		 <p><button class="notification1">MORE</button></p>
 		</div>
