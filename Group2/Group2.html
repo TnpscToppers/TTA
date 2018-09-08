@@ -26,7 +26,18 @@
 	<p class="day1">Day:</p>
 	<p id="day2" class="day2"></p>
 
-		<p class="login2"><img src="user.png"  width="30" height="30">&nbspLogin</p>
+		<p class="login2"><img src="user.png"  width="30" height="30"><?php session_start();
+
+		if($_SESSION["name"] == true)
+		{
+			echo $_SESSION["name"]." ";
+		}
+		else
+		{
+			header('location:https://ttalogin.herokuapp.com/index.php');
+		}?>
+		
+		<a href="logout.php">Logout</p>
 		<!--<center><img class="logotta" src="logonew.png" alt="" style="width:125px;"></center>-->
 
 		<div class="w3-row w3-border" style="border:none">
