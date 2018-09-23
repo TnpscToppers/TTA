@@ -109,14 +109,48 @@
 		$item41 = $_POST['item41'];
 		$item42 = $_POST['item42'];
 
-		$order=$a.$item1."_".$b.$item2."_".$c.$item3."_".$d.$item4."_".$e.$item5."_".
-		$f.$item6."_".$g.$item7."_".$h.$item8."_".$i.$item9."_".$j.$item10."_".$k.$item11."_".
-		$l.$item12."_".$m.$item13."_".$n.$item14."_".$o.$item15."_".$p.$item16."_".$q.$item17."_".
-		$r.$item18."_".$s.$item19."_".$t.$item20."_".$u.$item21."_".$v.$item22."_".$w.$item23."_".
-		$x.$item24."_".$y.$item25."_".$z.$item26."_".$aa.$item27."_".$bb.$item28."_".$cc.$item29."_".
-		$dd.$item30."_".$ee.$item31."_".$ff.$item32."_".$gg.$item33."_".$hh.$item34."_".$ii.$item35."_".
-		$jj.$item36."_".$kk.$item37."_".$ll.$item38."_".$mm.$item39."_".$nn.$item40."_".$oo.$item41."_".
-		$pp.$item42."_".$qq.$item1."_";
+				if($item1>0){$order= $order."_".$a.$item1;}
+		if($item2>0){$order= $order."_".$b.$item2;}
+		if($item3>0){$order= $order."_".$c.$item3;}
+		if($item4>0){$order= $order."_".$d.$item4;}
+		if($item5>0){$order= $order."_".$e.$item5;}
+		if($item6>0){$order= $order."_".$f.$item6;}
+		if($item7>0){$order= $order."_".$g.$item7;}
+		if($item8>0){$order= $order."_".$h.$item8;}
+		if($item9>0){$order= $order."_".$i.$item9;}
+		if($item10>0){$order=$order."_".$j.$item10;}
+		if($item11>0){$order=$order."_".$k.$item11;}
+		if($item12>0){$order=$order."_".$l.$item12;}
+		if($item13>0){$order=$order."_".$m.$item13;}
+		if($item14>0){$order=$order."_".$n.$item14;}
+		if($item15>0){$order=$order."_".$o.$item15;}
+		if($item16>0){$order=$order."_".$p.$item16;}  
+		if($item17>0){$order=$order."_".$q.$item17;}
+		if($item18>0){$order=$order."_".$r.$item18;}
+		if($item19>0){$order=$order."_".$s.$item19;}
+		if($item20>0){$order=$order."_".$t.$item20;}
+		if($item21>0){$order=$order."_".$u.$item21;}
+		if($item22>0){$order=$order."_".$v.$item22;}
+		if($item23>0){$order=$order."_".$w.$item23;}
+		if($item24>0){$order=$order."_".$x.$item24;}
+		if($item25>0){$order=$order."_".$y.$item25;}
+		if($item26>0){$order=$order."_".$z.$item26;}
+		if($item27>0){$order=$order."_".$aa.$item27;}
+		if($item28>0){$order=$order."_".$bb.$item28;}
+		if($item29>0){$order=$order."_".$cc.$item29;}
+		if($item30>0){$order=$order."_".$dd.$item30;}
+		if($item31>0){$order=$order."_".$ee.$item31;}
+		if($item32>0){$order=$order."_".$ff.$item32;}
+		if($item33>0){$order=$order."_".$gg.$item33;}
+		if($item34>0){$order=$order."_".$hh.$item34;}
+		if($item35>0){$order=$order."_".$ii.$item35;}
+		if($item36>0){$order=$order."_".$jj.$item36;}
+		if($item37>0){$order=$order."_".$kk.$item37;}
+		if($item38>0){$order=$order."_".$ll.$item38;}
+		if($item39>0){$order=$order."_".$mm.$item39;}
+		if($item40>0){$order=$order."_".$nn.$item40;}
+		if($item41>0){$order=$order."_".$oo.$item41;}
+		if($item42>0){$order=$order."_".$pp.$item42;}
 		pg_query($db, "INSERT INTO menu (name, item) VALUES ('$name', '$order')"); 
 		$_SESSION['message'] = "Successfully saved"; 
 		header('location: menu.php');
